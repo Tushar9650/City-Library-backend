@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "message.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node message.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tushar9650/City-Library-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tushar9650/City-Library-backend/issues"
+  },
+  "homepage": "https://github.com/Tushar9650/City-Library-backend#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.2"
+  }
+}
