@@ -5,6 +5,15 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
+var cors = require('cors')
+
+app.use(cors()) // Use this after the variable declara
+ const corsOptions ={
+    origin:'http://localhost:3000', 
+    credentials:true,            //access-control-allow-credentials:true
+    optionSuccessStatus:200
+}
+app.use(cors(corsOptions));
 
 const transporter = nodemailer.createTransport({
   host: 'smtp-relay.brevo.com',
