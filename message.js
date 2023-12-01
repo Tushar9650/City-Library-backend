@@ -163,6 +163,6 @@ app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
 
-// sendEmail(1000,100,900,'tusharsinghota9650@gmail.com')
+sendEmail(1000,100,900,'tusharsinghota9650@gmail.com')
 
 // export default sendEmail;

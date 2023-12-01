@@ -5,7 +5,7 @@
   "main": "message.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node message.js"
+    "start": "node message.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   "homepage": "https://github.com/Tushar9650/City-Library-backend#readme",
   "dependencies": {
     "express": "^4.18.2",
-    "mongoose": "^8.0.2"
+    "mongoose": "^8.0.2",
+    "nodemailer": "^6.9.7"
   }
 }
